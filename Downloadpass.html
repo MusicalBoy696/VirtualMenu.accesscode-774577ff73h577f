@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Virtual Menu - Protected Page</title>
+	<link rel="stylesheet" href="css/DownloadPass.css">
+	<style>
+		.margin {
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<p class="margin"></p>
+	<p class="margin"></p>
+	<header>
+		<div class="container">
+			<h1>Virtual Menu</h1>
+			<sup title="Page You Are in">#protectedpage</sup>
+			<nav>
+				<ul>
+					<li><a href="WelcomePage.html">Home</a></li>
+					<li><a href="AboutUs.html">About</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+					<li><a href="DownloadPass.html">Downloads</a></li>
+				</ul>
+			</nav>
+		</div>
+		<p class="margin"></p>
+		<p class="margin"></p>
+	</header>
+	<br>
+	<p class="margin"></p>
+	<p class="margin"></p>
+	<main>
+		<p class="margin"></p>
+		<p class="margin"></p>
+		<p class="margin"></p>
+		<section class="inputmiddle">
+			<p class="margin"></p>
+			<h2>Protected Page</h2>
+			<p>This is a protected page. Please enter the password below to access the content.</p>
+			<form action="#" method="post">
+				<label for="password">Password:</label>
+				<input onblur="Pass()" type="password" id="password" name="password">
+				<button id="submitButton" onclick="Pass()">Submit</button>
+			</form>
+			<h2 id="stat"> {stats}</h2>
+		</section>
+	</main>
+  <style>
+.FreeFall {
+  margin-bottom: 355px;
+}
+
+  </style>
+<p class="FreeFall"></p>
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Virtual Menu. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script src="Scripts/JS/ProtectDownload.js"></script>
+</body>
+</html>
